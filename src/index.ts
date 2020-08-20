@@ -8,7 +8,7 @@ const app = express();
 const PORT = 3000;
 
 const dbName = 'test';
-const MONGOOSE_CONNECTION_STRING = `mongodb+srv://rin:rinrinrin@clustertest.9kk8g.mongodb.net/${dbName}?retryWrites=true&w=majority`;
+const MONGOOSE_CONNECTION_STRING = `mongodb+srv://rin:rinx3@clustertest.9kk8g.mongodb.net/${dbName}?retryWrites=true&w=majority`;
 
 mongoose.connect(MONGOOSE_CONNECTION_STRING, {
   useNewUrlParser: true,
